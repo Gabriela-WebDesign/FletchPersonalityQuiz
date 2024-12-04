@@ -151,10 +151,10 @@ function changequestion9(){
 
 function changequestion10(){
     $("h2").text(question10);
-        $("#option1").attr("src", "band1.png");
-        $("#option2").attr("src", "band2.png");
-        $("#option3").attr("src", "band3.png");
-        $("#option4").attr("src", "band4.png");
+        $("#option1").attr("src", "Band1.png");
+        $("#option2").attr("src", "Band2.png");
+        $("#option3").attr("src", "Band3.png");
+        $("#option4").attr("src", "Band4.png");
     $("#option1").on("click", Resaultscene); 
     $("#option2").on("click", Resaultscene);
     $("#option3").on("click", Resaultscene);
